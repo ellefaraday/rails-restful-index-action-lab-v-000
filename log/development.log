@@ -436,3 +436,14 @@ Started GET "/students" for 69.164.130.248 at 2018-05-15 14:10:19 +0000
 Processing by StudentsController#index as HTML
   Rendered students/index.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students" for 69.164.130.248 at 2018-05-15 14:11:39 +0000
+Processing by StudentsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `pry' for #<Binding:0x007f2c99e132d8>
+Did you mean?  try):
+  app/controllers/students_controller.rb:3:in `index'
+
+
