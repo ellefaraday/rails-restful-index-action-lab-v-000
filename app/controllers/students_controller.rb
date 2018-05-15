@@ -1,6 +1,5 @@
 class StudentsController < ApplicationController
   def index
-    binding.pry
-  #  @test = "TEST"
+   @test = "TEST"
   end
 end
