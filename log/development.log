@@ -334,3 +334,16 @@ Started GET "/students" for 69.164.130.248 at 2018-05-15 14:06:20 +0000
 Processing by StudentsController#index as HTML
   Rendered students/index.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 69.164.130.248 at 2018-05-15 14:09:03 +0000
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.1/gems/railties-4.2.10/lib/rails/templates/rails/welcome/index.html.erb (2.5ms)
+Completed 200 OK in 25ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students" for 69.164.130.248 at 2018-05-15 14:09:09 +0000
+Processing by StudentsController#index as HTML
+  Rendered students/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 233ms (Views: 232.3ms | ActiveRecord: 0.0ms)
