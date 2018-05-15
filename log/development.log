@@ -457,3 +457,13 @@ Started GET "/students" for 69.164.130.248 at 2018-05-15 14:11:56 +0000
 Processing by StudentsController#index as HTML
   Rendered students/index.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/students" for 69.164.130.248 at 2018-05-15 14:13:34 +0000
+Processing by StudentsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+NameError (uninitialized constant StudentsController::Students):
+  app/controllers/students_controller.rb:3:in `index'
+
+
